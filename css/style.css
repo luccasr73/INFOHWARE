@@ -1,0 +1,372 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('/fonts/fontawesome-webfont.eot');
+  /*src: url('/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff') format('woff'), url('/fonts/fontawesome-webfont.ttf') format('truetype'), url('../fonts/fontawesome-webfont.svg') format('svg');*/
+}
+
+body{
+padding:0px;
+font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+margin:0px;
+
+}
+{
+text-decoration:none;
+}
+nav{
+position:relative;
+float:right;
+
+top:-180px;
+width:39%;
+
+z-index:3;
+}
+
+nav>ul>li{
+padding-left:2%;
+display:inline;
+margin: 0;
+background-color:transparent;
+}
+
+nav>ul>li>a{
+text-decoration:none;
+color:#000;
+padding-top:5px;
+padding-bottom:5px;
+padding-left:1px;
+padding-right:1px;
+font-weight:900;
+}
+
+nav>ul>li>a:hover {
+text-decoration:none;
+color:#fff;
+background-color:#5b83c0;
+padding-top:6px;
+padding-bottom:7px;
+padding-left:1px;
+padding-right:1px;
+}
+
+ul{
+margin: 0;
+padding: 6px;
+}
+
+.imgdireita{
+position:relative;
+margin-left:60px;
+z-index:2;
+top:-180px;
+border-radius:10px;
+}
+
+.imgslide{
+position:relative;
+z-index:1;
+width:100%;
+height:200px;
+}
+
+footer{
+   position:relative;
+   bottom:0;
+   width:100%;
+   background-color:#5b83c0;
+   color:#fff;
+}
+
+.pad{
+padding:10px;
+}
+
+
+.limite{
+max-height:200px;
+}
+
+.fundobranco
+{
+background-color:#fff;
+}
+
+.padt10px{
+	padding-top:10px;
+}
+.padlr1px{
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.fundocinza{
+background-color:#ccc;
+}
+
+.imagemladotexto{
+    float: left;
+    border: transparent thin solid;
+    padding: 3px 3px 3px 3px;
+    margin: 0px 5px 5px 0;
+}
+
+.imgcentro{
+ margin: 0;
+   position: relative;
+   top: 50%;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, 50%); 
+   margin-bottom: 1%;
+   z-index:2;
+   width:120px;
+}   
+.imgloja{
+	width:100%;
+}
+.imghardware{
+	width: 90%;
+    padding-left: 5%;
+}
+.centro{
+  margin: 0;
+   position: relative;
+   top: 50%;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, 50%); 
+   margin-bottom: 1%;
+   
+}   
+.tablecell
+{
+display:table-cell;
+}
+.floatright{
+	float:right;
+}
+a{
+	text-decoration:none;
+	color:#fff;
+}
+.marginl25{
+	margin-left:25px;
+}
+.hrcustom{
+    background-color: #5b83c0;
+    height: 2px;
+    border: none;
+    position: relative;
+    margin-left: 50%;
+    transform: translate(-50%, -100%);
+	margin-top:-1.3%;
+}
+
+.mobile {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  
+}
+form>label{
+	display:block;
+}
+.mobile div {
+  display: none;
+}
+.mobile button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  
+  background: rgba(255,255,255,0.8) url("../img/hamburger.png") center no-repeat;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  background-size: 80%;
+  width: 30px;
+  height: 30px;
+  outline: none;
+ 
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+.mobile button.expanded {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  background-color: #fff;
+  border: 1px;
+}
+.mobile a {
+  display: block;
+}
+
+.footercopy{
+font-size:12px;
+}
+
+.font15{
+font-size:15px;
+}
+.font14{
+font-size:14px;
+}
+.negrito{
+	font-weight:900;
+}
+input,textarea{
+border: solid 1px #fff;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+	font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+input:focus,textarea:focus{
+border: solid 2.5px #989898;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+	  outline: none;
+	font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+.btnenviar{
+	border: solid 2.5px #989898;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+	background-color:#fff;
+	font-weight:900;
+	color:#000;
+	
+	font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;	
+}
+.btnenviar:active{
+	cursor:pointer;	
+	background-color:#989898;
+	color:#fff;
+	font-weight:900;
+	border: solid 2.5px #989898;
+}
+
+
+.btnenviar:focus{
+	outline: none;	
+}
+
+.marginb-35
+{
+	margin-bottom:-35px;
+}
+.navmobile{
+position:relative;
+z-index:1;
+width:100%;
+height:70px;
+display:none;
+}
+.negrito{
+	font-weight:bold;
+}
+.imgslidemobile{
+	background-color:red;
+	display:none;
+	position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 75px;
+}
+
+@media only screen and (max-width: 1222px) { 
+nav>ul>li{
+padding-left:0.5%;
+display:inline;
+margin: 0;
+}
+}
+@media only screen and (min-width: 1182px) { 
+.mobile{
+display:none;
+}
+}
+
+@media only screen and (max-width: 1182px) { 
+.desk{
+display:none;
+}
+}
+
+@media only screen and (max-width: 1000px) { 
+.hrcustom {
+margin-top:-1.4%;
+}
+.imgslide{
+	    display:none;
+}
+.imgdireita{
+	    height:60px;
+		    position: relative;
+    margin-left: 60px;
+    z-index: 2;
+    top: -66px;
+    border-radius: 10px;
+	width: 60%;
+}
+.imgslidemobile{
+	display:block;
+}
+
+.navmobile{
+	    display:block;
+}
+}
+
+@media only screen and (max-width: 600px) { 
+.hrcustom {
+margin-top:-1.7%;
+}
+}
+
+@media only screen and (max-width: 720px) { 
+.tablecell {
+display:block;
+}
+}
+
+@media only screen and (max-width: 1182px) {
+  .mobile {
+    display: block;
+  }
+.mobile a {
+  background: #eee;
+  text-align: center;
+  padding: 17.5px 0;
+  border-bottom: 1px solid #ddd;
+  text-decoration: none;
+  color: #222;
+  font-weight: 900;
+}
+
+.mobile a:hover,
+a:active,
+a:focus {
+  background: #5b83c0;/*#e7e7e7*/
+  color:#fff;
+}
+
+}
+.texto_rodape{
+text-align: center;
+font-family: 'Raleway', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-size:18px;}
+
+.texto_rodape_sombra{
+font-family: 'Raleway', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-size:14px;
+}

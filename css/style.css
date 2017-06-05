@@ -271,7 +271,7 @@ display:none;
 	font-weight:bold;
 }
 .imgslidemobile{
-	background-color:red;
+	
 	display:none;
 	position: relative;
     z-index: 1;
@@ -289,6 +289,7 @@ margin: 0;
 @media only screen and (min-width: 1182px) { 
 .mobile{
 display:none;
+
 }
 }
 
@@ -296,6 +297,11 @@ display:none;
 .desk{
 display:none;
 }
+.mobile{
+position: fixed;
+z-index: 6;
+}
+
 }
 
 @media only screen and (max-width: 1000px) { 
@@ -306,16 +312,20 @@ margin-top:-1.4%;
 	    display:none;
 }
 .imgdireita{
-	    height:60px;
-		    position: relative;
+	height: 60px;
+    position: fixed;
     margin-left: 60px;
-    z-index: 2;
-    top: -66px;
+    z-index: 6;
+    top: 15px;
     border-radius: 10px;
-	width: 60%;
+    width: 60%;
 }
 .imgslidemobile{
 	display:block;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    height: 80px;
 }
 .limite{
 height: 75px;

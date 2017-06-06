@@ -370,16 +370,3 @@ a:focus {
 }
 
 }
-.texto_rodape{
-text-align: center;
-font-family: 'Raleway', sans-serif;
-font-family: 'PT Sans Narrow', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-size:18px;}
-
-.texto_rodape_sombra{
-font-family: 'Raleway', sans-serif;
-font-family: 'PT Sans Narrow', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-size:14px;
-}

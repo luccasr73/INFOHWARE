@@ -45,6 +45,7 @@ padding-top:6px;
 padding-bottom:7px;
 padding-left:1px;
 padding-right:1px;
+border-radius: 10px;
 }
 
 ul{
@@ -53,11 +54,11 @@ padding: 6px;
 }
 
 .imgdireita{
-position:relative;
-margin-left:60px;
-z-index:2;
-top:-180px;
-border-radius:10px;
+    position: relative;
+    margin-left: 60px;
+    z-index: 2;
+    top: -135px;
+    width: 400px;
 }
 
 .imgslide{
@@ -312,13 +313,13 @@ margin-top:-1.4%;
 	    display:none;
 }
 .imgdireita{
-	height: 60px;
+
     position: fixed;
-    margin-left: 60px;
+    margin-left: 0 !important; 
     z-index: 6;
     top: 10px;
-    border-radius: 10px;
-    width: 60%;
+    width: 90%;
+    height: 60px;
 }
 .imgslidemobile{
 	display:block;

@@ -302,6 +302,32 @@ display:none;
 position: fixed;
 z-index: 6;
 }
+.imgslide{
+	    display:none;
+}
+.imgdireita{
+
+    position: fixed;
+    margin-left: 0 !important; 
+    z-index: 6;
+    top: 10px;
+    width: 90%;
+    height: 60px;
+}
+.imgslidemobile{
+	display:block;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    height: 80px;
+}
+.limite{
+height: 75px;
+}
+
+.navmobile{
+	    display:block;
+}
 
 }
 
